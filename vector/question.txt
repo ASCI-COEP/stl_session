@@ -2,7 +2,7 @@ Determine all positive integers that evenly divide into a number, that is it's f
 Return the pth element of your list, sorted ascending. If there is no pth element, return 0
 
 For example, given number n = 20, it's factors are {1, 2, 4, 5, 10, 20}. Using 1-based indexing, if p = 3 return 4.
-If p = 6, return 0
+If p = 6, return 20
 
 1 <= n <= 10 ^ 15
 1 <= p <= 10 ^ 9

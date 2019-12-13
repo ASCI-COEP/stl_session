@@ -7,7 +7,8 @@ long pthFactor(long n, long p) {
 	for(i = 1; (i * i) <= n; i++) {
 		if(n % i == 0) {
 			v.push_back(i);
-			v.push_back(n / i);
+			if(i != n/i)
+				v.push_back(n / i);
 		}
 	}
 	if(v.size() < p)
