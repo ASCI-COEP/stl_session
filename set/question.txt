@@ -1,0 +1,22 @@
+Given an array of integers, determine the pth unique number from the array sorted in descending order.
+
+INPUT FORMAT:
+First line of the input consists of an integer 'n', denoting the length of the array
+Next line consists of 'n' space separated integers, denoting the array.
+Next line of the input consists of an integer 'p', denoting the position of integer
+
+OUTPUT FORMAT:
+For each input, output a single integer denoting the pth unique number of the array sorted in descending order.
+
+Eg.
+INPUT:
+6
+3 1 2 3 7 4
+4
+
+OUTPUT:
+2
+
+Explanation:
+Array in descending order: 7 4 3 3 2 1
+4th unique number is '2'

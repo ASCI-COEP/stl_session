@@ -1,0 +1,27 @@
+Given a sequence of parentheses, find if the sequence is balanced
+Eg. () is balanced, (()) is balanced, ((()())())() is balanced
+	)()()()()((()))) is not balanced, ()) is not balanced
+
+INPUT FORMAT:
+First line of the input is a integer 'n', denoting the length of the sequence
+Second line is the sequence of parantheses
+
+OUTPUT FORMAT:
+'Yes' if the sequence is balanced, 'No' if the sequence is not balanced
+
+
+Eg.
+
+INPUT:
+6
+(())()
+
+OUTPUT:
+Yes
+
+INPUT:
+3
+)()
+
+OUTPUT:
+No

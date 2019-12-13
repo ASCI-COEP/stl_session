@@ -1,0 +1,26 @@
+Given an array of integers, find the element with the highest frequency.
+
+INPUT FORMAT:
+First line of input consists of an integer 'n', denoting the size of array
+Next line of the input consists of 'n' space separated integers denoting the array
+
+OUTPUT FORMAT:
+For each input, output the element with maximum frequency.
+
+Eg.
+
+INPUT:
+10
+4 12 123 32 12 123 9 12 9 4
+
+OUTPUT:
+12
+
+Explanation:
+
+Frequency Count:
+4 - 2
+9 - 2
+12 - 3
+32 - 1
+123 - 2

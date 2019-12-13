@@ -1,0 +1,24 @@
+
+Given an array of items and weights corresponding to the items.
+Return the item with kth lowest weight.
+
+INPUT FORMAT:
+First line of the input consists of a single integer 'n', denoting the number of items.
+Next 'n' lines follow, each line consits of 2 integers, denoting item number and weight corresponding to that item.
+The last line of the input consits of an integer 'k'.
+
+OUTPUT FORMAT:
+For each input, output consists of a single integer denoting the item number of the selected item.
+
+Eg.
+
+INPUT: 
+4
+34 543
+234 41
+34 23
+1 3
+3
+
+OUTPUT:
+234
